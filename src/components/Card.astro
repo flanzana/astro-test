@@ -8,10 +8,10 @@ export interface Props {
 const { href, title, body } = Astro.props
 ---
 
-<li class="link-card group list-none flex p-0.5 rounded-lg shadow-md bg-white">
+<li class="link-card group flex list-none rounded-lg bg-white p-0.5 shadow-md">
   <a
     href={href}
-    class="w-full no-underline rounded-md leading-normal py-4 px-5 bg-white opacity-80"
+    class="w-full rounded-md bg-white py-4 px-5 leading-normal no-underline opacity-80"
   >
     <h2
       class="m-0 text-xl transition-colors duration-700 group-hover:text-primary-600 group-focus:text-primary-600"
